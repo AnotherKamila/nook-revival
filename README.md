@@ -18,6 +18,11 @@ You.
 
 (I also never checked the included files for backdoors. I don't really care if someone tries to attack my 6-year-old e-reader that I never connect to public WiFi via APKs that took me the whole evening to collect online. But *do* mind that by rooting the Nook you are giving root access via WiFi to anyone who cares to check.)
 
+What are these things?
+======================
+
+As I have stuff in my head and nobody else uses this, I have been too lazy to document things properly. In the unexpected case that you do use this, please ask me to document whatever you need documented.
+
 How to
 ======
 
@@ -48,6 +53,14 @@ Accessing your Calibre collection on the Nook
 =============================================
 
 TODO
+
+My customizations
+=================
+
+`customizations` contains
+
+- icons for the launcher that I use
+- a new root feed for Trook, including an entry where you should write your Calibre server's IP
 
 License
 =======
