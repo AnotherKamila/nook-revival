@@ -1,7 +1,7 @@
 # nook-revival
 Reviving my 6-year-old Nook Classic: collecting materials from the now-dead NookDevs wiki and such
 
-![nook with new launcher](nook.jpg)
+![nook with new launcher](n.jpg)
 
 Thanks to
 =========
