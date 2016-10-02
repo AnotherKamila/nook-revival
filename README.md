@@ -47,6 +47,7 @@ Apps
 - nooklet: container for apps written in HTML+JS :-)
 - Music: stock old Android music app, with buttons moved to the touchscreen/arrow keys
 
+Also see https://web.archive.org/web/20140109090359/http://nookdevs.com/Application_Directory .
 `orig-apks` collects all original APKs (from firmware 1.7)
 
 Accessing your Calibre collection on the Nook
