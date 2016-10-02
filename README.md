@@ -16,7 +16,7 @@ Who is responsible if the Nook blows up or eats your children if you use this
 
 You.
 
-(I also never checked the included files for backdoors. I don't really care if someone tries to attack my 6-year-old e-reader that I never connect to public WiFi via APKs that took me 3 days to collect online. But *do* mind that by rooting the Nook you are giving root access via WiFi to anyone who cares to check.)
+(I also never checked the included files for backdoors. I don't really care if someone tries to attack my 6-year-old e-reader that I never connect to public WiFi via APKs that took me the whole evening to collect online. But *do* mind that by rooting the Nook you are giving root access via WiFi to anyone who cares to check.)
 
 How to
 ======
