@@ -49,13 +49,24 @@ Apps
 - nooklet: container for apps written in HTML+JS :-)
 - Music: stock old Android music app, with buttons moved to the touchscreen/arrow keys
 
-Also see https://web.archive.org/web/20140109090359/http://nookdevs.com/Application_Directory .
+Also see https://web.archive.org/web/20140109090359/http://nookdevs.com/Application_Directory.  
 `orig-apks` collects all original APKs (from firmware 1.7)
 
-Accessing your Calibre collection on the Nook
-=============================================
+Accessing your Calibre collection on the Nook wirelessly
+========================================================
 
-TODO
+1. Run calibre-server somewhere:
+   - you can launch it from the GUI on your laptop, but this is not very useful
+   - you can run it on a server from the commandline:  
+     `calibre-server --port=$PORT --username=$USERNAME --password=$PASSWORD --with-library=$LIBRARY`
+   - you probably want to stick it behind a reverse proxy (I like NGINX), so that you can add HTTPS and use the standard port and such
+2. install the Trook app
+3. if you want two-click access, install a custom root feed with the correct address:
+   I have included the default `root.xml` + extra first entry in `customizations/my feeds`; you need to edit your library's parameters and put it into a folder named `my feeds` in the root of the Nook.
+
+   Edit *both* occurences of `https://$USERNAME:$PASSWORD@$HOST:$PORT/stanza`. If you don't use https, change that to http. Hint: Testing the URL in a browser is easier than on device. (You should see an RSS feed if it works.)
+
+   Note: [Let's Encrypt](https://letsencrypt.org/) HTTPS certificates don't work with Trook (too old for that). Coming up with a solution is a WIP.
 
 My customizations
 =================
@@ -63,7 +74,9 @@ My customizations
 `customizations` contains
 
 - icons for the launcher that I use
-- a new root feed for Trook, including an entry where you should write your Calibre server's IP
+- a new root feed for Trook, including an entry where you should write your Calibre server's address
+
+Just stick any of the subfolders into the root of your Nook to apply it.
 
 License
 =======

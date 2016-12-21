@@ -6,9 +6,9 @@
   <author><name>Trook</name></author>
   <entry>
     <title>My Calibre Library</title>
-    <link type="application/atom+xml" href="http://<your IP>:8080/stanza"/>
-    <id>http://<your IP>:8080/stanza</id>
-    <content type="text">My Calibre Library</content>
+    <link type="application/atom+xml" href="https://$USERNAME:$PASSWORD@$HOST:$PORT/stanza"/>
+    <id>https://$USERNAME:$PASSWORD@$HOST:$PORT/stanza</id>
+    <content type="text">My Calibre library</content>
   </entry>
   <entry>
     <title>Lexcycle Online Catalog</title>
