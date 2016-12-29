@@ -66,7 +66,7 @@ Accessing your Calibre collection on the Nook wirelessly
 
    Edit *both* occurences of `https://$USERNAME:$PASSWORD@$HOST:$PORT/stanza`. If you don't use https, change that to http. Hint: Testing the URL in a browser is easier than on device. (You should see an RSS feed if it works.)
 
-   Note: [Let's Encrypt](https://letsencrypt.org/) HTTPS certificates don't work with Trook (too old for that). Coming up with a solution is a WIP.
+   Note: [Let's Encrypt](https://letsencrypt.org/) HTTPS certificates don't work with Trook (too old for that). Coming up with a solution is a WIP. See http://wiki.cacert.org/FAQ/ImportRootCertAndroidPreICS .
 
 My customizations
 =================
