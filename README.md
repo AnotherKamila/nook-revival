@@ -78,6 +78,11 @@ My customizations
 
 Just stick any of the subfolders into the root of your Nook to apply it.
 
+Virus detected?
+===============
+
+That's expected -- see [#1](https://github.com/AnotherKamila/nook-revival/issues/1#issuecomment-503560472) for more details.
+
 License
 =======
 
