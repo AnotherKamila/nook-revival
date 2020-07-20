@@ -49,6 +49,7 @@ Apps
 - nooklet: container for apps written in HTML+JS :-)
 - Music: stock old Android music app, with buttons moved to the touchscreen/arrow keys
 - aarddict: [Aard Dictionary](https://github.com/max-kammerer/aarddict_nook/downloads) integrated with Orion Viewer
+- ru.mynook.locale: ru/en locale switcher
 
 Also see https://web.archive.org/web/20140109090359/http://nookdevs.com/Application_Directory.  
 `orig-apks` collects all original APKs (from firmware 1.7)
